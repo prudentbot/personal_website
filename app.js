@@ -29,6 +29,9 @@ app.get('/art', function(req, res) {
   res.render('art');
 });
 
+app.get('/truths', function(req, res){
+  res.render('truths')
+})
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -37,6 +40,7 @@ app.use(function(req, res, next) {
     next(err);
 });
 
+//make site labrynthine on purpose.
 
 
 // error handlers
