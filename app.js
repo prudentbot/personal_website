@@ -25,8 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
-app.get('/art', function(req, res) {
-  res.render('art');
+app.get('/projects', function(req, res) {
+  res.render('projects');
 });
 
 app.get('/truths', function(req, res){
