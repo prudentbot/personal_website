@@ -33,8 +33,8 @@ app.get('/truths', function(req, res){
   res.render('truths')
 })
 
-app.get('/essays', function(req, res){
-  res.render('essays')
+app.get('/writing', function(req, res){
+  res.render('writing')
 })
 
 app.get('/liars', function(req, res){
