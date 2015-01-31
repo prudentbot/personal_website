@@ -41,6 +41,14 @@ app.get('/liars', function(req, res){
   res.render('liars');
 })
 
+// app.get('/resume', function(req, res){
+//   var tempFile="public/images/resume.pdf";
+//   fs.readFile(tempFile, function (err,data){
+//      response.contentType("application/pdf");
+//      response.send(data);
+//   });
+// });
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
     var err = new Error('Not Found');
